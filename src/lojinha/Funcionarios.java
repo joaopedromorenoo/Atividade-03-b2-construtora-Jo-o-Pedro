@@ -53,6 +53,7 @@ public class Funcionarios {
 			setSalario(Principal.scan.nextDouble());
 		}	
 	}
+	
 	public void consultarFuncionarios() {
 		System.out.printf("Nome Funcionario: %s,  Cargo: %s,  Salario: %s)\n", nome, cargo, salario);
 	}

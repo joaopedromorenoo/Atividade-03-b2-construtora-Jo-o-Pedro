@@ -71,7 +71,7 @@ public class Principal {
 		switch (escolha) {
 		case 1: {
 			cadastroFuncionarios();
-			break;
+			break; 
 		}
 		case 2: {
 			adicionarFuncEquipes();
@@ -198,8 +198,8 @@ public class Principal {
 		System.out.println("Essa funcionario foi excluido");
 	}
 
-	private static void excluirConstrucao() {
-		mostrarConstrucoes();
+	
+	private static void excluirConstrucao(){
 		System.out.println("Qual construção você quer remover?(Posição dela)");
 		int escolha = scan.nextInt();
 		scan.nextLine();
