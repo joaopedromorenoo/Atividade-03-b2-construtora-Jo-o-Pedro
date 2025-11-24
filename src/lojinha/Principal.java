@@ -192,6 +192,7 @@ public class Principal {
 		scan.nextLine();
 		if(escolha>listaFuncionarios.size()) {
 			System.out.println("Esse funcionario não foi encontrado!");
+			excluirFuncionarios();
 		}
 		listaFuncionarios.remove(escolha - 1);
 		System.out.println("Essa funcionario foi excluido");
@@ -204,6 +205,7 @@ public class Principal {
 		scan.nextLine();
 		if(escolha>listaConstrucao.size()) {
 			System.out.println("Esse construção não foi encontrada!");
+			excluirConstrucao();
 		}
 		listaConstrucao.remove(escolha - 1);
 		System.out.println("Essa construção foi excluida");
